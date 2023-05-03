@@ -17,6 +17,14 @@
   position: fixed;
   width: 100%;
 }
+.text{
+  margin-top: -28vw;
+  width: 50%;
+}
+.text p{
+  width: 60%;
+  margin-bottom: 20px;
+}
 .nav-links{
   color: black;
 }
@@ -34,10 +42,17 @@ ul{
 .first-page-section{
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: right;
+  margin-bottom: 20px;
+}
+
+.first-container{
+ 
+  display: flex;
+  
 }
 .intro{
-  width: 50%;
+  width: 100%;
   margin-top: 100px;
   padding-left: 30px;
  margin-bottom: 20px;
@@ -52,11 +67,11 @@ h1{
 
 }
 .introImage{
-  width: 50%;
+  width: 60%;
   height: 100%;
-  background-size: 120%;
+  background-size: 170%;
   background-repeat: no-repeat;
-  background-position:39px -50px ;
+  background-position:-3vw -11.7vw ;
   background-image: url(../images/bg-intro-desktop.svg);
   display: flex;
   justify-content: center;
@@ -65,8 +80,8 @@ display: flex;
 justify-content: end;
 }
 .phones{
-  width: 80%;
- 
+  width: 90%;
+ margin-bottom: -20px;
 }
 .request-btn{
   width: 150px;
@@ -122,6 +137,7 @@ margin-bottom: 26px;
   padding-left: 10px;
   display: grid;
   justify-content:center;
+  margin-top: 50px;
 }
 .WHE{
   width: 62%;
@@ -178,22 +194,28 @@ footer{
   color: white;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 200px;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.footer-container{
+  display: flex;
+  justify-content:center;
+gap: 175px;
+}
 .footer-links{
   display: flex;
   flex-direction: column;
-  
+}
+.footer-links a{
+  width: 80%;
 }
 .SM-logos{
   margin-top: 30px;
   display: flex;
-  gap: 10px;
+  gap: 1px;
   justify-content: center;
 }
 path:hover{
@@ -227,14 +249,28 @@ a:hover{
 margin-bottom: 30px;
 }
 @media (max-width:900px) {
+
+  .text{
+    margin-top: -63vw;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 170px;
+  }
   .second-page-section,.third-page-section{
     display: flex;
     flex-direction: column;
     align-content: center;
   text-align: center;
-  
+  margin-top: 20px;
   }
-
+  .second-page-section{
+    margin-top: 180px;
+    padding-top: 170px;
+  }
+.phones{
+  width: 90%;
+  margin-bottom: 20px;
+}
   .WHE{
     width: 100%;
     padding-left: 10%;
@@ -243,8 +279,82 @@ margin-bottom: 30px;
   .card,.article{
     text-align: left;
   }
+  .footer-container{
+    display: flex;
+    justify-content:center;
+    gap: 9vw;
+  }
+  .footer-links{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links a{
+    width: 100px;
+  }
 }
+@media (max-width:700px) {
+  .first-page-section{
+    
+    
+    flex-wrap: wrap-reverse;
+       width: 100%;
+       margin-bottom: 150px;
+   
+     }
+  footer{
+    height: max-content;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: max-content;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .footer-links a{
+    width: 100%;
+  }
+  .footer-btn{
+display: grid;
+justify-content: center;
+    width: 100%;
+  }
+.second-page-section{
+  margin-top: -30px;
+}
+.text{
+  width: 50%;
+  margin-top: -103vw;
+  margin-bottom: 310px;
+}
+}
+
 @media (max-width:590px) {
+  .introImage{
+    width: 100%;
+    background-size:250vw;
+    background-position:-220px -430px ;
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  .phones{
+    margin-top: -80px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .text{
+    margin-top: -420px;
+    text-align: center;
+    width: 100%;
+  }
+.text p{
+  width: 100%;
+}
+.text h1{
+  width: 100%;
+}
   .logo1{
     margin-top: 20px;
   
@@ -289,14 +399,7 @@ margin-bottom: 30px;
   .link-container {
    display: none;
   }
-  
-  .first-page-section{
- justify-content: center;
- flex-wrap: wrap-reverse;
-    width: 100%;
-    margin-bottom: 150px;
 
-  }
   .intro{
     display: flex;
     flex-direction: column;
@@ -310,13 +413,14 @@ margin-bottom: 30px;
     width: 100%;
   }
   h1{
+    margin-top: -100px;
     width: 100%;
   }
   .introImage{
     width: 100%;
-    background-size:180%;
-    background-position:-89px -190px ;
+    background-position: 25% 110%;
     margin-bottom: 0px;
+    justify-content: center;
   }
   .phones{
     margin-top: -80px;
@@ -327,7 +431,7 @@ margin-bottom: 30px;
     flex-direction: column;
     align-content: center;
   text-align: center;
-  
+  margin-top: 80px;
   }
   .card{
     width: 80%;
@@ -354,7 +458,7 @@ margin-bottom: 30px;
     padding-left: 7%;
     padding-right: 7%;
   }
-  footer{
+  .footer-container{
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -370,6 +474,10 @@ margin-bottom: 30px;
 .footer-btn{
   margin-top: 20px;
   justify-content: center;
+}
+.text{
+  margin-top: -340px;
+  margin-bottom: 120px;
 }
 
 }

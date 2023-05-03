@@ -5,7 +5,7 @@ import Article from './component/props/Article'
 import BgPic from '/images/image-mockups.png'
 import Online from '/images/icon-online.svg'
 import Budget from '/images/icon-budgeting.svg'
-import onboard from '/images/icon-onboarding.svg'
+import onboard from '/images/icon-Onboarding.svg'
 import api from '/images/icon-api.svg'
 import currency from '/images/image-currency.jpg'
 import restaurant from '/images/image-restaurant.jpg'
@@ -15,26 +15,28 @@ import confetti from '/images/image-confetti.jpg'
 
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
-    <div className="App">
+    <div className="app">
      
 <div className='first-page-section'>
-<div className='intro'>
+
+<div className='intro'></div>
+
+<div className='introImage'>
+<img className='phones' src={BgPic} alt=""/>
+</div>
+
+</div>
+
+
+<div className='second-page-section'>
+<div className='text'>
 <h1>Next generation digital banking</h1> 
 <p>Take your financial life online.
 Your Easybank account will be a one-stop-shop for spending, saving, budgeting,
 investing, and much more.</p>
 <div><Btn class="request-btn" /></div>
 </div>
-<div className='introImage'>
-<img className='phones' src={BgPic} alt=""/>
-</div>
-</div>
-
-
-<div className='second-page-section'>
-
 <div className='WHE'>
 <header>Why choose Easybank?</header>
 <p>We leverage Open Banking to turn your bank account into your 
