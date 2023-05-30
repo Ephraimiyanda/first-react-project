@@ -263,6 +263,9 @@ margin-bottom: 30px;
   text-align: center;
   margin-top: 20px;
   }
+  .third-page-section{
+    margin-top: -100px;
+  }
   .second-page-section{
     margin-top: 180px;
     padding-top: 170px;
@@ -363,7 +366,8 @@ justify-content: center;
   .navbar{
     display: flex;
     justify-content:space-between;
-   position: relative;
+    top: 0px;
+   position: sticky;
    gap: 10%;
    width: 100%;
    padding-right: 30px;
@@ -380,21 +384,24 @@ justify-content: center;
   .navbar ul{
     background-color: white;
     position: absolute;
+   
   }
   .display{
-    
-    position: relative;
-    display: grid;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-  width: 58%;
+  display: grid;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 78%;
   padding-top: 10%;
   padding-bottom: 10%;
-   border-radius: 7px;
-   margin-top: 100px;
-   margin-left: -39%;
-   height: 250px;
+  border-radius: 7px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 10%;
+  right: 10%;
+  top: 0;
+  height: 250px;
   }
   .link-container {
    display: none;
