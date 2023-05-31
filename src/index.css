@@ -165,7 +165,7 @@ margin-bottom: 26px;
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
-  height: 370px;
+  height: 400px;
   border-radius: 6px;
 }
 .author-name{
@@ -175,7 +175,7 @@ margin-bottom: 26px;
 }
 .article-preview,.article-heading,.author-name{
   width: 226px;
-  padding-left: 10px;
+  padding-left: 0px;
   padding-right: 10px;
   color:hsl(0, 1%, 47%) ;
 }
