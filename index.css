@@ -457,6 +457,7 @@ justify-content: center;
     text-align: left;
     width:250px;
     height: 400px;
+    padding: 0px;
   }
   .article-img{
     width: 100%;
@@ -466,6 +467,14 @@ justify-content: center;
     padding-left: 7%;
     padding-right: 7%;
   }
+  .article-preview{
+    padding-right: 0px;
+    padding-bottom: 10px;
+    width: 90%;
+  }
+  p{
+    padding: 0px;
+  }
   .footer-container{
     display: flex;
     flex-direction: column;
@@ -473,7 +482,7 @@ justify-content: center;
     height: max-content;
     text-align: center;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .SM-logos{
     margin-left: 15px;
