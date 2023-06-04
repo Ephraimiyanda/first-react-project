@@ -175,8 +175,8 @@ margin-bottom: 26px;
 }
 .article-preview,.article-heading,.author-name{
   width: 226px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 7%;
+  padding-right: 7%;
   color:hsl(0, 1%, 47%) ;
 }
 .article-heading{
