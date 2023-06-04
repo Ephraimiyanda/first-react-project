@@ -179,6 +179,9 @@ margin-bottom: 26px;
   padding-right: 7%;
   color:hsl(0, 1%, 47%) ;
 }
+.article span,.article p,.article h3{
+  padding-right:10px;
+}
 .article-heading{
 color: black;
 margin-bottom: 10px;
