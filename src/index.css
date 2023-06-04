@@ -164,7 +164,7 @@ margin-bottom: 26px;
   box-shadow: 0px 0px 4px 0.2px rgb(219, 218, 218);
   display: flex;
   flex-direction: column;
-  padding-bottom: 15px;
+  padding-bottom: 55px;
   height: 430px;
   border-radius: 6px;
 }
@@ -175,7 +175,7 @@ margin-bottom: 26px;
 }
 .article-preview,.article-heading,.author-name{
   width: 226px;
-  padding-left: 0px;
+  padding-left: 10px;
   padding-right: 10px;
   color:hsl(0, 1%, 47%) ;
 }
@@ -456,6 +456,8 @@ justify-content: center;
   .article{
     text-align: left;
     width:250px;
+    height: 400px;
+    padding: 0px;
   }
   .article-img{
     width: 100%;
@@ -465,8 +467,13 @@ justify-content: center;
     padding-left: 7%;
     padding-right: 7%;
   }
-  . article-preview{
-    padding-right:0px;
+  .article-preview{
+    padding-right: 0px;
+    padding-bottom: 10px;
+    width: 90%;
+  }
+  p{
+    padding: 0px;
   }
   .footer-container{
     display: flex;
@@ -475,7 +482,7 @@ justify-content: center;
     height: max-content;
     text-align: center;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .SM-logos{
     margin-left: 15px;
