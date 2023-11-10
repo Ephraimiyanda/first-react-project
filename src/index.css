@@ -165,6 +165,7 @@ margin-bottom: 26px;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
+  padding-bottom:55px;
 }
 .author-name{
   font-size: small;
